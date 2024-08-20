@@ -64,7 +64,8 @@
         {
             $.ajax({
                 type: "GET",
-                url: "ajax-crud/fetch.php",
+                url: "fetch.php",
+                // url: "ajax-crud/fetch.php",
                 success: function (response) {
                     // console.log(response);
                     $.each(response, function (key, value) { 
